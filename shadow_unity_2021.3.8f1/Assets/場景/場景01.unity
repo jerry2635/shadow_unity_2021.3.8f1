@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 63880590}
   - component: {fileID: 63880589}
   m_Layer: 5
-  m_Name: coverD
+  m_Name: paues
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6156863}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 558525202}
   - component: {fileID: 558525201}
   m_Layer: 5
-  m_Name: coverW
+  m_Name: cover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 720, y: 480}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1611,6 +1611,7 @@ GameObject:
   - component: {fileID: 2008075768}
   - component: {fileID: 2008075767}
   - component: {fileID: 2008075771}
+  - component: {fileID: 2008075772}
   m_Layer: 0
   m_Name: "\u7AD9L"
   m_TagString: Untagged
@@ -1742,6 +1743,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2008075772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008075766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f498ae2b854be419770fcbb2a6b5c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ControlSpeed: 0
 --- !u!1 &2131480083
 GameObject:
   m_ObjectHideFlags: 0

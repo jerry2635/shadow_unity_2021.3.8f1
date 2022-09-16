@@ -7,6 +7,12 @@ namespace jerry
     /// </summary>
     public class T01 : MonoBehaviour
     {
+        public float ControlSpeed; //¯BÂI¼Æ
+
+        private void Update()
+        {
+            transform.Translate(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        }
 
     }
 }
