@@ -1755,7 +1755,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f498ae2b854be419770fcbb2a6b5c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ControlSpeed: 0
+  ControlSpeedfloat: 0
+  MinX: 0
+  MaxX: 0
+  MinY: 0
+  MaxY: 0
 --- !u!1 &2131480083
 GameObject:
   m_ObjectHideFlags: 0
