@@ -58,6 +58,20 @@ namespace jerry
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Jump01 = true;
+
+                if (ani.GetBool(FaceAt))//FaceAt直寫表示true
+                {
+                    ani.SetBool(JumpLeft, true && !isGround);
+                }
+                if (!ani.GetBool(FaceAt))// "!"反轉設定在Bool上
+                {
+                    ani.SetBool(JumpRight, true && !isGround);
+                }
+                else if (Input.GetKeyUp(KeyCode.Space))
+                {
+                    ani.SetBool(JumpLeft, false);
+                    ani.SetBool(JumpRight, false);
+                }
             }
         }
 
@@ -85,12 +99,48 @@ namespace jerry
         }
         #endregion
 
-        public void Update()//每秒60更新.隨效能波動
+        #region 動畫系統
+        private void AnimeDecideSystem()
         {
-            #region 移動程式
+            if (Input.GetKeyDown(KeyCode.Mouse0))//攻
+            {
+                if (ani.GetBool(FaceAt))//FaceAt直寫表示true
+                    ani.SetTrigger(AttackLeft);
+                else if (!ani.GetBool(FaceAt))// "!"反轉設定在Bool上
+                    ani.SetTrigger(AttackRight);
+            }
+
+            if (Input.GetKeyDown(KeyCode.A))//左
+            {
+                ani.SetBool(FaceAt, true);
+                ani.SetBool(WalkRight, false);
+                ani.SetBool(WalkLeft, true);
+            }
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                ani.SetBool(WalkLeft, false);
+            }
+
+            if (Input.GetKeyDown(KeyCode.D))//右
+            {
+                ani.SetBool(FaceAt, false);
+                ani.SetBool(WalkLeft, false);
+                ani.SetBool(WalkRight, true);
+            }
+            if (Input.GetKeyUp(KeyCode.D))
+            {
+                ani.SetBool(WalkRight, false);
+            }
+        }
+        #endregion
+
+        private void Move()//移動程式
+        {
             // 左右偏移(-1,1)
             //float hor = Input.GetAxisRaw("Horizontal"); Raw效果,零直接跳到一百,沒有中間的過渡效果
             float hor = Input.GetAxis("Horizontal");
+
+
             // 前後偏移(-1,1)
             float ver = Input.GetAxis("Vertical");
             if (hor != 0 || ver != 0)
@@ -102,18 +152,24 @@ namespace jerry
             {
                 // 控制坦克前後行走
                 transform.Translate(Vector3.right * Time.deltaTime * ControlSpeedfloat * hor);
+                #region 以剛體為控制
                 //下串是以剛體為控制目標.特點是顯著的物理加速度影響
                 //r2d.velocity += Vector2.right * Time.deltaTime * ControlSpeedfloat * hor;
                 //print(Vector2.right * Time.deltaTime * ControlSpeedfloat * hor);
                 // 控制坦克左右旋轉
                 //transform.Rotate(Vector3.up * Time.deltaTime * angle * hor);
+                #endregion
             }
             //限制座標型,不受物理影響
             //transform.position = new Vector3(Mathf.Clamp(transform.position.x, MinX, MaxX), Mathf.Clamp(transform.position.y, MinY, MaxY), transform.position.z);
-            #endregion
+        }
 
+        public void Update()//每秒60更新.隨效能波動
+        {
+            Move();
             JumpKey();
             CheckGround();
+            AnimeDecideSystem();
         }
 
         private void FixedUpdate()//每秒"固定"50更新
@@ -131,7 +187,7 @@ namespace jerry
             Application.Quit();
         }
 
-
+        
     }
 }
 
