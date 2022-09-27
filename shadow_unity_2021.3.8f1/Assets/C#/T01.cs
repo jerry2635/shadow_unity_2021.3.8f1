@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace jerry
 {
@@ -35,6 +34,7 @@ namespace jerry
         private Rigidbody2D r2d;
         private bool Jump01;
         private bool isGround;
+        private object ClimbArea;
 
         private string FaceAt = "面向";//true在左 false在右
         private string WalkLeft = "走L";
@@ -58,20 +58,6 @@ namespace jerry
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Jump01 = true;
-
-                if (ani.GetBool(FaceAt))//FaceAt直寫表示true
-                {
-                    ani.SetBool(JumpLeft, true && !isGround);
-                }
-                if (!ani.GetBool(FaceAt))// "!"反轉設定在Bool上
-                {
-                    ani.SetBool(JumpRight, true && !isGround);
-                }
-                else if (Input.GetKeyUp(KeyCode.Space))
-                {
-                    ani.SetBool(JumpLeft, false);
-                    ani.SetBool(JumpRight, false);
-                }
             }
         }
 
@@ -131,6 +117,40 @@ namespace jerry
             {
                 ani.SetBool(WalkRight, false);
             }
+
+            if (Input.GetKeyDown(KeyCode.Space))//跳
+            {
+                if (ani.GetBool(FaceAt))
+                {
+                    ani.SetBool(JumpLeft, true);
+                }
+                else if (!ani.GetBool(FaceAt))
+                {
+                    ani.SetBool(JumpRight, true);
+                }
+            }
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                if (ani.GetBool(FaceAt))
+                    ani.SetBool(JumpLeft, false);
+                else if (!ani.GetBool(FaceAt))
+                    ani.SetBool(JumpRight, false);
+            }
+
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                ani.SetBool(ClimbUp, true);
+            }
+            if (Input.GetKeyUp(KeyCode.W))
+            {
+                ani.SetBool(ClimbUp, false);
+            }
+
+        }
+
+        public void DeadSystem()
+        {
+
         }
         #endregion
 
@@ -170,6 +190,7 @@ namespace jerry
             JumpKey();
             CheckGround();
             AnimeDecideSystem();
+            DeadSystem();
         }
 
         private void FixedUpdate()//每秒"固定"50更新
@@ -177,17 +198,10 @@ namespace jerry
             JumpForce();//呼叫
         }
 
-        public void NextScene()
-        {
-            SceneManager.LoadScene("場景02");
-        }
-
         public void Quit()
         {
             Application.Quit();
         }
-
-        
     }
 }
 
