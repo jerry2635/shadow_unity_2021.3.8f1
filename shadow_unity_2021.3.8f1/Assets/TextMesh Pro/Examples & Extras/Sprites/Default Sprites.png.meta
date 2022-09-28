@@ -1,12 +1,26 @@
 fileFormatVersion: 2
-guid: ca187a2d64c824b47b8f3b5bb04aac72
+guid: a0fc465d6cf04254a2938578735e2383
 TextureImporter:
-  internalIDToNameTable: []
+  fileIDToRecycleName:
+    21300000: Default Sprite Asset_0
+    21300002: Default Sprite Asset_1
+    21300004: Default Sprite Asset_2
+    21300006: Default Sprite Asset_3
+    21300008: Default Sprite Asset_4
+    21300010: Default Sprite Asset_5
+    21300012: Default Sprite Asset_6
+    21300014: Default Sprite Asset_7
+    21300016: Default Sprite Asset_8
+    21300018: Default Sprite Asset_11
+    21300020: Default Sprite Asset_12
+    21300022: Default Sprite Asset_13
+    21300024: Default Sprite Asset_14
+    21300026: Default Sprite Asset_15
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -23,19 +37,17 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 1
-  maxTextureSize: 2048
+  textureFormat: -1
+  maxTextureSize: 512
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
-    aniso: 1
-    mipBias: 0
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -53,32 +65,38 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -87,303 +105,318 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_1
+      name: Default Sprite Asset_0
       rect:
         serializedVersion: 2
-        x: 90
-        y: 4108
-        width: 1784
-        height: 424
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b4ac2ec833bcff04fa2af10c96c1e947
-      internalID: -1913142418
+      spriteID: a09de5b73098b2247921a5d8566535e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_2
+      name: Default Sprite Asset_1
       rect:
         serializedVersion: 2
-        x: 1983
-        y: 4153
-        width: 1792
-        height: 405
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a74d5fbabac0dd64889b88f3c292f95e
-      internalID: 382667205
+      spriteID: 6f23aaeaabde92743b6e764e7373d24e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_3
+      name: Default Sprite Asset_2
       rect:
         serializedVersion: 2
-        x: 4494
-        y: 4041
-        width: 660
-        height: 592
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 24a2c446bab8fd94799576181b47f099
-      internalID: 583612051
+      spriteID: 7a53700b4f8ee664dbc6d96f6897dcca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_4
+      name: Default Sprite Asset_3
       rect:
         serializedVersion: 2
-        x: 6103
-        y: 4258
-        width: 1188
-        height: 356
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 516ced82a10aac643bf94d08588d412a
-      internalID: -199876727
+      spriteID: 8aee68303a75a5240a3bfb6295e83c8d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_6
+      name: Default Sprite Asset_4
       rect:
         serializedVersion: 2
-        x: 82
-        y: 4310
-        width: 4
-        height: 4
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 153402d0cbd1cc747816494ab0dce7e8
-      internalID: -1159716439
+      spriteID: 62b55056d79f32242863dd4585a55f00
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_8
+      name: Default Sprite Asset_5
       rect:
         serializedVersion: 2
-        x: 319
-        y: 2346
-        width: 1267
-        height: 469
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aa830ad901d39af4ea6160c31fd9c4aa
-      internalID: 1325345701
+      spriteID: 40e7bb1e441a02942a5912eb1bd6beb0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_9
+      name: Default Sprite Asset_6
       rect:
         serializedVersion: 2
-        x: 2485
-        y: 2421
-        width: 619
-        height: 401
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1d43c75783a9ca94f8e00d1a899b72ba
-      internalID: -279174258
+      spriteID: 264af04cf7ba9a6499d6605e8546b922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_10
+      name: Default Sprite Asset_7
       rect:
         serializedVersion: 2
-        x: 4476
-        y: 2324
-        width: 652
-        height: 633
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 92e95ce329c5f2e43a6d7ace7ca1adb7
-      internalID: 916022751
+      spriteID: 5df87e7d9c18ccf4eab4728947f9d93c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_11
+      name: Default Sprite Asset_8
       rect:
         serializedVersion: 2
-        x: 6159
-        y: 2478
-        width: 1132
-        height: 404
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4180cce076331de4f908fee6cbecdf92
-      internalID: -1222086524
+      spriteID: 7670512dd461b8940a38efcf24a8081d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_12
+      name: Default Sprite Asset_11
       rect:
         serializedVersion: 2
-        x: 341
-        y: 641
-        width: 1083
-        height: 468
+        x: 128
+        y: 128
+        width: 384
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1842e469aa869fd48af5637138febd2d
-      internalID: -1624045004
+      spriteID: 8d2f6b0f97da03b43a92ce0dc86fc195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_13
+      name: Default Sprite Asset_12
       rect:
         serializedVersion: 2
-        x: 1811
-        y: 622
-        width: 2087
-        height: 472
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0f7ce1a1987b39b489811248ad8d40d5
-      internalID: -951087357
+      spriteID: c22fab65c0b72cf43bad23754277ed43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_14
+      name: Default Sprite Asset_13
       rect:
         serializedVersion: 2
-        x: 4258
-        y: 686
-        width: 1001
-        height: 364
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ec7b0e01c86eb95469c0c50f4eca635d
-      internalID: -515300816
+      spriteID: e669cb3dece225c4c80a6260a92e44a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_15
+      name: Default Sprite Asset_14
       rect:
         serializedVersion: 2
-        x: 6118
-        y: 746
-        width: 1109
-        height: 326
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4df664d9a9b58b14b84363b009add06e
-      internalID: -1261735175
+      spriteID: fc45a1c7b06b45d43aec543c9d13ac11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Sprite Asset_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d0fca21c1e3dd46889168e33cda991
       vertices: []
       indices: 
       edges: []
@@ -391,30 +424,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    spriteID: 
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
-    nameFileIdTable:
-      Button_3x4_65X45CM_0: -1109947048
-      Button_3x4_65X45CM_14: -515300816
-      Button_3x4_65X45CM_15: -1261735175
-      Button_3x4_65X45CM_1: -1913142418
-      Button_3x4_65X45CM_4: -199876727
-      Button_3x4_65X45CM_12: -1624045004
-      Button_3x4_65X45CM_6: -1159716439
-      Button_3x4_65X45CM_5: 340874608
-      Button_3x4_65X45CM_8: 1325345701
-      Button_3x4_65X45CM_11: -1222086524
-      Button_3x4_65X45CM_2: 382667205
-      Button_3x4_65X45CM_13: -951087357
-      Button_3x4_65X45CM_7: -687589870
-      Button_3x4_65X45CM_9: -279174258
-      Button_3x4_65X45CM_10: 916022751
-      Button_3x4_65X45CM_3: 583612051
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
