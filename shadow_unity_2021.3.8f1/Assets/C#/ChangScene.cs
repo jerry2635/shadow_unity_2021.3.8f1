@@ -5,15 +5,17 @@ namespace jerry
 {
     public class ChangScene : MonoBehaviour
     {
-        [SerializeField, Header("切換的場景")]
-        public object SceneToChang;
+        [SerializeField, Header("場景編號")]
+        private string SceneTarger;
+     
 
-
-
-        //public void NextScene()
-        //{
-        //   SceneManager.LoadScene("場景02");
-        //}
+        public void NextScene()
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                SceneManager.LoadScene(SceneTarger);
+            }
+        }
 
         void Start()
         {
@@ -22,10 +24,10 @@ namespace jerry
 
         void Update()
         {
-
+            NextScene();
         }
 
-       
+
     }
 }
 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca187a2d64c824b47b8f3b5bb04aac72
+guid: 0a6ad61ddeea7c842ab455874b266d05
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,44 +100,32 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_1
+      name: Button_3x4_65X45CM 1_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 127
         y: 4108
-        width: 1784
+        width: 1747
         height: 424
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ac2ec833bcff04fa2af10c96c1e947
-      internalID: -1913142418
+      spriteID: 38fca05c909bffc4a86e50ac1c39042c
+      internalID: -1780585747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_2
+      name: Button_3x4_65X45CM 1_2
       rect:
         serializedVersion: 2
         x: 1983
@@ -145,20 +133,20 @@ TextureImporter:
         width: 1792
         height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a74d5fbabac0dd64889b88f3c292f95e
-      internalID: 382667205
+      spriteID: 458845d3c52690548a742cdfd87b0cda
+      internalID: 1586140893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_3
+      name: Button_3x4_65X45CM 1_3
       rect:
         serializedVersion: 2
         x: 4494
@@ -166,20 +154,20 @@ TextureImporter:
         width: 660
         height: 592
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a2c446bab8fd94799576181b47f099
-      internalID: 583612051
+      spriteID: 97b365d0c626f1f41993a9645f6622ab
+      internalID: 507163425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_4
+      name: Button_3x4_65X45CM 1_4
       rect:
         serializedVersion: 2
         x: 6103
@@ -187,104 +175,41 @@ TextureImporter:
         width: 1188
         height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 516ced82a10aac643bf94d08588d412a
-      internalID: -199876727
+      spriteID: 8930166b19d2f2d41b927c753b63e160
+      internalID: 149250151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_6
+      name: Button_3x4_65X45CM 1_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 4310
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 153402d0cbd1cc747816494ab0dce7e8
-      internalID: -1159716439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button_3x4_65X45CM_8
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 2346
-        width: 1267
-        height: 469
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa830ad901d39af4ea6160c31fd9c4aa
-      internalID: 1325345701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button_3x4_65X45CM_9
-      rect:
-        serializedVersion: 2
-        x: 2485
-        y: 2421
-        width: 619
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d43c75783a9ca94f8e00d1a899b72ba
-      internalID: -279174258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button_3x4_65X45CM_10
-      rect:
-        serializedVersion: 2
-        x: 4476
-        y: 2324
+        x: 4468
+        y: 2875
         width: 652
-        height: 633
+        height: 637
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92e95ce329c5f2e43a6d7ace7ca1adb7
-      internalID: 916022751
+      spriteID: eefb339b528662a4d8f053afcd13c827
+      internalID: -1361153266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_11
+      name: Button_3x4_65X45CM 1_6
       rect:
         serializedVersion: 2
         x: 6159
@@ -292,20 +217,83 @@ TextureImporter:
         width: 1132
         height: 404
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4180cce076331de4f908fee6cbecdf92
-      internalID: -1222086524
+      spriteID: 62f3571e7bc84874aa2abaae933b91da
+      internalID: -1026665638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_12
+      name: Button_3x4_65X45CM 1_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2346
+        width: 1267
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8d56736545f6746b4c950984d1bce3
+      internalID: -1302468889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_3x4_65X45CM 1_8
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 2421
+        width: 619
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe57a3d0a2055840b2e830baa7e77e4
+      internalID: 1686496057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_3x4_65X45CM 1_9
+      rect:
+        serializedVersion: 2
+        x: 3910
+        y: 1867
+        width: 1627
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9523b8fccc6ab84b9bdef2486e52ec6
+      internalID: 1041366036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_3x4_65X45CM 1_10
       rect:
         serializedVersion: 2
         x: 341
@@ -313,41 +301,41 @@ TextureImporter:
         width: 1083
         height: 468
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1842e469aa869fd48af5637138febd2d
-      internalID: -1624045004
+      spriteID: 24f43de003a0f154c8989f2bca1f41a6
+      internalID: -131212614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_13
+      name: Button_3x4_65X45CM 1_11
       rect:
         serializedVersion: 2
-        x: 1811
+        x: 1863
         y: 622
-        width: 2087
+        width: 2035
         height: 472
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f7ce1a1987b39b489811248ad8d40d5
-      internalID: -951087357
+      spriteID: 0d0b23a2e24ea4141b600ff8daa11da3
+      internalID: -294443258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_14
+      name: Button_3x4_65X45CM 1_12
       rect:
         serializedVersion: 2
         x: 4258
@@ -355,20 +343,20 @@ TextureImporter:
         width: 1001
         height: 364
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7b0e01c86eb95469c0c50f4eca635d
-      internalID: -515300816
+      spriteID: 395a1f099e51c9b46bd433c8e884dcd1
+      internalID: 514773246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_3x4_65X45CM_15
+      name: Button_3x4_65X45CM 1_13
       rect:
         serializedVersion: 2
         x: 6118
@@ -376,14 +364,14 @@ TextureImporter:
         width: 1109
         height: 326
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4df664d9a9b58b14b84363b009add06e
-      internalID: -1261735175
+      spriteID: 3622b8d070e5c6f46b7205baa42de977
+      internalID: 235710964
       vertices: []
       indices: 
       edges: []
@@ -399,22 +387,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Button_3x4_65X45CM_0: -1109947048
-      Button_3x4_65X45CM_14: -515300816
-      Button_3x4_65X45CM_15: -1261735175
-      Button_3x4_65X45CM_1: -1913142418
-      Button_3x4_65X45CM_4: -199876727
-      Button_3x4_65X45CM_12: -1624045004
-      Button_3x4_65X45CM_6: -1159716439
-      Button_3x4_65X45CM_5: 340874608
-      Button_3x4_65X45CM_8: 1325345701
-      Button_3x4_65X45CM_11: -1222086524
-      Button_3x4_65X45CM_2: 382667205
-      Button_3x4_65X45CM_13: -951087357
-      Button_3x4_65X45CM_7: -687589870
-      Button_3x4_65X45CM_9: -279174258
-      Button_3x4_65X45CM_10: 916022751
-      Button_3x4_65X45CM_3: 583612051
+      Button_3x4_65X45CM 1_4: 149250151
+      Button_3x4_65X45CM 1_0: -545662623
+      Button_3x4_65X45CM 1_11: -294443258
+      Button_3x4_65X45CM 1_7: -1302468889
+      Button_3x4_65X45CM 1_6: -1026665638
+      Button_3x4_65X45CM 1_1: -1780585747
+      Button_3x4_65X45CM 1_5: -1361153266
+      Button_3x4_65X45CM 1_13: 235710964
+      Button_3x4_65X45CM 1_9: 1041366036
+      Button_3x4_65X45CM 1_8: 1686496057
+      Button_3x4_65X45CM 1_3: 507163425
+      Button_3x4_65X45CM 1_2: 1586140893
+      Button_3x4_65X45CM 1_10: -131212614
+      Button_3x4_65X45CM 1_12: 514773246
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
