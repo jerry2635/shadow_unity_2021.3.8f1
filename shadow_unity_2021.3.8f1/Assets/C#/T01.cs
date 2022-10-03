@@ -198,10 +198,6 @@ namespace jerry
             JumpForce();//©I¥s
         }
 
-        public void Quit()
-        {
-            Application.Quit();
-        }
     }
 }
 
