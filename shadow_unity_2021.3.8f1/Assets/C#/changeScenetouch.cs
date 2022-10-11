@@ -12,14 +12,6 @@ namespace jerry
 
         private bool DoorArea = false;
 
-        private bool Scene0to1 = false;
-        private bool Scene1to0 = false;
-        private bool Scene1to2 = false;
-        private bool Scene2to1 = false;
-        private bool Scene2to3 = false;
-        private bool Scene3to2 = false;
-        private bool Scene3to4 = false;
-
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (Player.Contains(Player))

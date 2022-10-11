@@ -5,17 +5,16 @@ namespace jerry
     public class Menu : MonoBehaviour
     {
         private bool isPause = false;
-
-        //public Button Pautton;
-        //public GameObject PauseWindow;
+        private bool OpenTheMenu = false;
 
         private void Start()
         {
-            
+
         }
-        
+
         private void Update()
         {
+            MenuKeyControl();
             TimeStop();
             Quit();
         }
@@ -24,22 +23,16 @@ namespace jerry
 
         private void TimeStop()
         {
-            if (isPause == false)
-            {
-                Time.timeScale = 0;
-            }
-            else
-            {
-                Time.timeScale = 1;
-            }
+            if (isPause == false) { Time.timeScale = 1; }
+            else { Time.timeScale = 0; }
         }
 
         private void MenuKeyControl()
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                isPause = false;
-                
+                isPause = true;
+
             }
         }
 

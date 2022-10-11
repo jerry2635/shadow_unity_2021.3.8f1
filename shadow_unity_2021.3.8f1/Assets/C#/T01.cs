@@ -43,7 +43,6 @@ namespace jerry
         private string JumpLeft = "跳L";
         private string AttackLeft = "攻擊觸發L";
         private string AttackRight = "攻擊觸發R";
-        private string ClimbUp = "爬開關";
         private string Dead = "死";
 
         private void Awake()
@@ -98,7 +97,10 @@ namespace jerry
 
             if (Input.GetKeyDown(KeyCode.A))//左
             {
-                ani.SetBool(FaceAt, true);
+                if (isGround == true)
+                {
+                    ani.SetBool(FaceAt, true);
+                }
                 ani.SetBool(WalkRight, false);
                 ani.SetBool(WalkLeft, true);
             }
@@ -109,7 +111,10 @@ namespace jerry
 
             if (Input.GetKeyDown(KeyCode.D))//右
             {
-                ani.SetBool(FaceAt, false);
+                if (isGround == true)
+                {
+                    ani.SetBool(FaceAt, false);
+                }
                 ani.SetBool(WalkLeft, false);
                 ani.SetBool(WalkRight, true);
             }
@@ -136,16 +141,6 @@ namespace jerry
                 else if (!ani.GetBool(FaceAt))
                     ani.SetBool(JumpRight, false);
             }
-
-            if (Input.GetKeyDown(KeyCode.W))
-            {
-                ani.SetBool(ClimbUp, true);
-            }
-            if (Input.GetKeyUp(KeyCode.W))
-            {
-                ani.SetBool(ClimbUp, false);
-            }
-
         }
 
         public void DeadSystem()
@@ -159,7 +154,6 @@ namespace jerry
             // 左右偏移(-1,1)
             //float hor = Input.GetAxisRaw("Horizontal"); Raw效果,零直接跳到一百,沒有中間的過渡效果
             float hor = Input.GetAxis("Horizontal");
-
 
             // 前後偏移(-1,1)
             float ver = Input.GetAxis("Vertical");
