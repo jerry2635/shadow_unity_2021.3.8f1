@@ -28,11 +28,6 @@ namespace jerry
             }
         }
 
-        private void LockLocationSystem()
-        {
-            
-        }
-
         private void Update()
         {
             NextScene();

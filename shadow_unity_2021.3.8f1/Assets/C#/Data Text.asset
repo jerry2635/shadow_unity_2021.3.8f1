@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b47a3302470b64bb550c1777e45d9b, type: 3}
+  m_Name: Data Text
+  m_EditorClassIdentifier: 
+  TextTitleName: MK
+  datadialogues:
+  - content: "\u6211\u662FMK"
+    sound: {fileID: 0}
+  - content: "\u4F60\u53EF\u80FD\u4E0D\u77E5\u9053.\u4F46\u6211\u5728\u5BE6\u9A57\u5BA4\u88E1\u89C0\u5BDF\u4F60\u5F88\u4E45\u4E86\u5594!!"
+    sound: {fileID: 0}
+  - content: "\u73FE\u5728.\u6536\u5BB9\u8A2D\u65BD\u597D\u50CF\u51FA\u4E86\u554F\u984C"
+    sound: {fileID: 0}
+  - content: "\u611F\u89BA\u662F\u500B\u9003\u812B\u7684\u597D\u6A5F\u6703!"
+    sound: {fileID: 0}
+  - content: "\u4F60\u5148\u8A66\u8457\u6D3B\u52D5\u6D3B\u52D5\u5427!!"
+    sound: {fileID: 0}
+  - content: "AD\u662F\u5DE6\u53F3.WS\u662F\u6500\u722C.space\u662F\u8DF3\u8E8D.\u6ED1\u9F20\u5DE6\u9375\u662F\u653B\u64CA.E\u662F\u4F7F\u7528\u7269\u54C1/\u9032\u5165"
+    sound: {fileID: 0}
+  - content: "ESC\u53EF\u4EE5\u547C\u53EB\u70BA\u4F60\u63D0\u4F9B\u7684\u9078\u55AE"
+    sound: {fileID: 0}
+  - content: "\u6C92\u6709\u554F\u984C\u5C31\u8D95\u5FEB\u51FA\u767C\u5427!!"
+    sound: {fileID: 0}

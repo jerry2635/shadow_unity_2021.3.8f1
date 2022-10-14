@@ -43,7 +43,7 @@ namespace jerry
         private string JumpLeft = "跳L";
         private string AttackLeft = "攻擊觸發L";
         private string AttackRight = "攻擊觸發R";
-        private string Dead = "死";
+        //private string Dead = "死";
 
         private void Awake()
         {
@@ -143,10 +143,10 @@ namespace jerry
             }
         }
 
-        public void DeadSystem()
+        /*public void DeadSystem()
         {
 
-        }
+        }*/
         #endregion
 
         private void Move()//移動程式
@@ -184,7 +184,7 @@ namespace jerry
             JumpKey();
             CheckGround();
             AnimeDecideSystem();
-            DeadSystem();
+            //DeadSystem();
         }
 
         private void FixedUpdate()//每秒"固定"50更新
