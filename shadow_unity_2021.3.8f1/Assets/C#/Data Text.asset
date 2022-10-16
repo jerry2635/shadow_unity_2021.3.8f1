@@ -15,7 +15,7 @@ MonoBehaviour:
   TextTitleName: MK
   datadialogues:
   - content: "\u6211\u662FMK"
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 748a0a409abf6cf4c952eb28c0b27893, type: 3}
   - content: "\u4F60\u53EF\u80FD\u4E0D\u77E5\u9053.\u4F46\u6211\u5728\u5BE6\u9A57\u5BA4\u88E1\u89C0\u5BDF\u4F60\u5F88\u4E45\u4E86\u5594!!"
     sound: {fileID: 0}
   - content: "\u73FE\u5728.\u6536\u5BB9\u8A2D\u65BD\u597D\u50CF\u51FA\u4E86\u554F\u984C"

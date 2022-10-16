@@ -973,6 +973,7 @@ GameObject:
   - component: {fileID: 611750535}
   - component: {fileID: 611750534}
   - component: {fileID: 611750538}
+  - component: {fileID: 611750539}
   m_Layer: 5
   m_Name: "\u5C0D\u8A71/\u6587\u5B57\u7CFB\u7D71\u756B\u5E03"
   m_TagString: Untagged
@@ -1074,6 +1075,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &611750539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611750533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd0cc021f9a4794a979544038632e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groupDialogue: {fileID: 611750538}
+  textName: {fileID: 0}
+  textContent: {fileID: 0}
+  dataText: {fileID: 11400000, guid: 7138288b28102a34096c32763b776faa, type: 2}
 --- !u!1 &655842935
 GameObject:
   m_ObjectHideFlags: 0
