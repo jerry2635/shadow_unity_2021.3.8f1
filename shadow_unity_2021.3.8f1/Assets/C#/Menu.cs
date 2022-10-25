@@ -4,39 +4,26 @@ namespace jerry
 {
     public class Menu : MonoBehaviour
     {
-        private bool isPause = false;
-        private bool OpenTheMenu = false;
+        private CanvasGroup canvasGroup;
 
-        private void Start()
+        private void Awake()
         {
+            Time.timeScale = 0;
+           
+        }
 
+        public void StartButtonClick()
+        {
+            Time.timeScale = 1;
+            canvasGroup = GetComponent<CanvasGroup>();
+            canvasGroup.gameObject.SetActive(false);
         }
 
         private void Update()
         {
-            MenuKeyControl();
-            TimeStop();
+            StartButtonClick();
             Quit();
         }
-
-        #region ¼È°±/±Ò°Ê¿ï³æ
-
-        private void TimeStop()
-        {
-            if (isPause == false) { Time.timeScale = 1; }
-            else { Time.timeScale = 0; }
-        }
-
-        private void MenuKeyControl()
-        {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                isPause = true;
-
-            }
-        }
-
-        #endregion
 
         public void Quit()
         {
